@@ -62,6 +62,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "3.2.5",
     "@sveltejs/adapter-node": "5.2.5",
+    "@sveltejs/adapter-vercel": "^5.7.2",
     "@sveltejs/kit": "2.5.28",
     "@sveltejs/vite-plugin-svelte": "3.1.2",
     "@tailwindcss/typography": "0.5.16",
