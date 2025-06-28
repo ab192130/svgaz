@@ -143,7 +143,7 @@
         {:else}
           <div class={cardDownloadStyles}>
             <img
-              src={isDarkTheme() ? svgInfo.route.dark : svgInfo.route.light}
+              src={isDarkTheme() ? svgInfo.route.light : svgInfo.route.dark}
               alt={svgInfo.title}
               class="my-4 h-10"
             />
@@ -219,7 +219,7 @@
         {#if typeof svgInfo.wordmark !== 'string' && svgInfo.wordmark !== undefined}
           <div class={cardDownloadStyles}>
             <img
-              src={isDarkTheme() ? svgInfo.wordmark.dark : svgInfo.wordmark.light}
+              src={isDarkTheme() ? svgInfo.wordmark.light : svgInfo.wordmark.dark}
               alt={svgInfo.title}
               class="my-4 h-10"
             />
