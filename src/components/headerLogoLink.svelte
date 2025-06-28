@@ -32,7 +32,7 @@
     <a href="/" aria-label="Go to the SVGL v4.1 home page">
       <div class="flex items-center space-x-2 opacity-100 transition-opacity hover:opacity-80">
         <svelte:component this={Logo} />
-        <span class="hidden text-xl font-medium tracking-tight md:block">svgl</span>
+        <span class="hidden text-xl font-medium tracking-tight md:block">svgaz</span>
       </div>
     </a>
   </ContextMenu.Trigger>
