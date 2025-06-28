@@ -37,7 +37,7 @@ export const svgs: iSVG[] = [
     url: 'https://www.unibank.az/'
   },
   {
-    title: 'Pashabank',
+    title: 'PASHA Bank',
     category: 'Bank',
     route: {
       light: '/library/pashabank-light.svg',
