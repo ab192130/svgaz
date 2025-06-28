@@ -72,7 +72,7 @@
   <!-- Image -->
   {#if wordmarkSvg == true && svgInfo.wordmark !== undefined}
     <img
-      class={cn('hidden dark:block', globalImageStyles)}
+      class={cn('block dark:hidden', globalImageStyles)}
       src={typeof svgInfo.wordmark !== 'string'
         ? svgInfo.wordmark?.dark || ''
         : svgInfo.wordmark || ''}
@@ -81,7 +81,7 @@
       loading="lazy"
     />
     <img
-      class={cn('block dark:hidden', globalImageStyles)}
+      class={cn('hidden dark:block', globalImageStyles)}
       src={typeof svgInfo.wordmark !== 'string'
         ? svgInfo.wordmark?.light || ''
         : svgInfo.wordmark || ''}
@@ -91,14 +91,14 @@
     />
   {:else}
     <img
-      class={cn('hidden dark:block', globalImageStyles)}
+      class={cn('block dark:hidden', globalImageStyles)}
       src={typeof svgInfo.route !== 'string' ? svgInfo.route.dark : svgInfo.route}
       alt={svgInfo.title}
       title={svgInfo.title}
       loading="lazy"
     />
     <img
-      class={cn('block dark:hidden', globalImageStyles)}
+      class={cn('hidden dark:block', globalImageStyles)}
       src={typeof svgInfo.route !== 'string' ? svgInfo.route.light : svgInfo.route}
       alt={svgInfo.title}
       title={svgInfo.title}
