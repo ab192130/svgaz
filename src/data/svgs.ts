@@ -25,6 +25,15 @@ export const svgs: iSVG[] = [
       light: '/library/kapital-bank-wm-light.svg',
       dark: '/library/kapital-bank-wm-dark.svg'
     },
-    url: 'https://www.kapitalbank.az//'
+    url: 'https://www.kapitalbank.az/'
+  },
+  {
+    title: 'Unibank',
+    category: 'Bank',
+    route: {
+      light: '/library/unibank-light.svg',
+      dark: '/library/unibank-dark.svg'
+    },
+    url: 'https://www.unibank.az/'
   },
 ];
