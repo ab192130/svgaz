@@ -14,4 +14,17 @@ export const svgs: iSVG[] = [
     },
     url: 'https://abb-bank.az/'
   },
+  {
+    title: 'Kapital Bank',
+    category: 'Bank',
+    route: {
+      light: '/library/kapital-bank-light.svg',
+      dark: '/library/kapital-bank-dark.svg'
+    },
+    wordmark: {
+      light: '/library/kapital-bank-wm-light.svg',
+      dark: '/library/kapital-bank-wm-dark.svg'
+    },
+    url: 'https://www.kapitalbank.az//'
+  },
 ];
