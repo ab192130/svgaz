@@ -36,4 +36,17 @@ export const svgs: iSVG[] = [
     },
     url: 'https://www.unibank.az/'
   },
+  {
+    title: 'Pashabank',
+    category: 'Bank',
+    route: {
+      light: '/library/pashabank-light.svg',
+      dark: '/library/pashabank-dark.svg'
+    },
+    wordmark: {
+      light: '/library/pashabank-wm-light.svg',
+      dark: '/library/pashabank-wm-dark.svg'
+    },
+    url: 'https://www.unibank.az/'
+  },
 ];
