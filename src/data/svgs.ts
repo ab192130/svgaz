@@ -49,4 +49,13 @@ export const svgs: iSVG[] = [
     },
     url: 'https://www.unibank.az/'
   },
+  {
+    title: 'Bank of Baku',
+    category: 'Bank',
+    route: {
+      light: '/library/bank-of-baku-light.svg',
+      dark: '/library/bank-of-baku-dark.svg'
+    },
+    url: 'https://bankofbaku.com/'
+  },
 ];
